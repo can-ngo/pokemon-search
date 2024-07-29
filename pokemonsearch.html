@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pokemonsearch.css">
+    <title>Pokemon Search App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pokemon Search App</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="search-container">
+          <p>Search for Pokemon Name or ID:</p>
+          <input type="text" id="search-input" required><br>
+          <button id="search-button" type="submit">Search</button>
+          <button id="prev-button" type="submit">&#60</button>
+          <button id="random-button" type="submit">Random</button>
+          <button id="next-button" type="submit">&#62</button>
+        </div>
+        <div id="pokemon-container">
+          <div id="pokemon-info">
+            <span id="pokemon-name"></span><span id="pokemon-id"></span><br>
+            <span id="weight"></span><span id="height"></span><br>
+          </div>
+          <img id="sprite">
+          <div id="types"></div>
+        </div>
+        <div class="specs-container">
+          <table>
+            <tr>
+              <th>Base</th>
+              <th>Stats</th>  
+            </tr>
+            <tr>
+              <th>HP:</th>
+              <td id="hp"></td>
+            </tr>
+            <tr>
+              <th>Attack:</th>
+              <td id="attack"></td>
+            </tr>
+            <tr>
+              <th>Defense:</th>
+              <td id="defense"></td>
+            </tr>
+            <tr>
+              <th>Sp. Attack:</th>
+              <td id="special-attack"></td>
+            </tr>
+            <tr>
+              <th>Sp. Defense:</th>
+              <td id="special-defense"></td>
+            </tr>
+            <tr>
+              <th>Speed:</th>
+              <td id="speed"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <!-- javascript -->
+    <script src="./pokemonsearch.js"></script>
+  </body>
+</html>

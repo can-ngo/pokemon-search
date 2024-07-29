@@ -1,0 +1,176 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: arial, courier, sans serif;
+}
+
+header {
+  text-align: center;
+  margin: 30px 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 650px;
+  background-color: #3aa4b0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.search-container {
+  text-align: center;
+
+}
+
+.search-container > input,
+.search-container > button {
+  font-size: 1.3rem;
+  margin: 5px auto;
+}
+
+.search-container > input {
+  width: 100%;
+}
+
+.search-container > button {
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+
+#pokemon-container {
+  width: 370px;
+  height: 300px;
+  background-color: #ccdadb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+#pokemon-name {
+  font-weight: bold;
+}
+
+#pokemon-info {
+  padding: 5px 0 0 5px;
+}
+
+#sprite {
+  margin: 0 auto;
+  scale: 1.5;
+}
+
+
+#types {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.types {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.normal {
+  background-color: #A8A878;
+}
+
+.fire {
+  background-color: #F08030;
+}
+
+.water{
+  background-color: #6890F0;
+}
+
+.electric {
+  background-color: #F8D030;
+}
+
+.grass {
+  background-color: #78C850;
+}
+
+.ice {
+  background-color: #98D8D8;
+  color: black;
+}
+
+.fighting {
+  background-color: #C03028;
+}
+
+.poison {
+  background-color: #A040A0;
+}
+
+.ground {
+  background-color: #E0C068;
+}
+
+.flying {
+  background-color: #A890F0;
+}
+
+.psychic {
+  background-color: #F85888;
+}
+
+.bug {
+  background-color: #A8B820;
+}
+
+.rock {
+  background-color: #B8A038;
+}
+
+.ghost {
+  background-color: #705898;
+}
+
+.dragon {
+  background-color: #7038F8;
+}
+
+.dark {
+  background-color: #705848;
+}
+
+.steel {
+  background-color: #B8B8D0;
+}
+
+.fairy {
+  background-color: #F0B6BC;
+}
+
+
+table {
+  width: 370px;
+}
+
+th,td {
+  padding: 5px;
+  background-color: #ccdadb;
+  text-align: center;
+}
